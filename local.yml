@@ -1,3 +1,6 @@
 ---
-name: install vim
-yum: pkg=vim state=installed
+- hosts: local
+
+  tasks:
+  - name: install vim
+    yum: pkg=vim state=installed
