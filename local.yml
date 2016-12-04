@@ -3,4 +3,4 @@
 
   tasks:
   - name: install vim
-    yum: pkg=vim state=installed
+    dnf: pkg=vim state=installed
